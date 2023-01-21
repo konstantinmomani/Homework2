@@ -85,7 +85,7 @@ public class Main {
         var theTotalWorkTime = 640;
         var singleEmployeeWorkTime = 8;
         var numberOfEmployees = theTotalWorkTime / singleEmployeeWorkTime;
-        System.out.println("Всего работников в компании " + numberOfEmployees + " человек");
+        System.out.println("Всего работников компании " + numberOfEmployees + " человек");
         var increasingStaffNumberBy94 = numberOfEmployees + 94;
         var increasingTheTotalWorkTime = increasingStaffNumberBy94 * 8;
         System.out.println("Если в компании работает " + increasingStaffNumberBy94 + " человека, то всего");
